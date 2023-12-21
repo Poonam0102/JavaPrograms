@@ -1,4 +1,4 @@
-package src.CoreJava;
+package src.Basic01;
 
 public class lab01 {
     public static void main(String[] args) {
