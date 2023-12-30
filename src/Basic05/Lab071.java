@@ -11,6 +11,6 @@ public class Lab071 {
 
 
 
-    for loop->
-    1. use
+//    for loop->
+//    1. use
 }
