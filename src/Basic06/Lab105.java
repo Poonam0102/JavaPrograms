@@ -10,19 +10,20 @@ public class Lab105 {
         System.out.println("enter first sub marks");
         marks[0] = sc.nextFloat();
         System.out.println("enter second sub marks");
-        marks[0] = sc.nextFloat();
+        marks[1] = sc.nextFloat();
         System.out.println("enter third sub marks");
-        marks[0] = sc.nextFloat();
+        marks[2] = sc.nextFloat();
         System.out.println("enter fourth sub marks");
-        marks[0] = sc.nextFloat();
+        marks[3] = sc.nextFloat();
 
         for (int i =0;i<marks.length;i++){
-            if (marks[i] <= 30){
-                System.out.println("Fail"+ i);
-            }else {
-                System.out.println("Pass" +i);
+            if (marks[i] < 30){
+                System.out.println("You are Fail:"+marks[i]);
             }
+            System.out.println(marks[i]);
+            }
+        sc.close();
         }
 
     }
-}
+

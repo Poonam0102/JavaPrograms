@@ -19,7 +19,7 @@ public class Lab099 {
 
         final int[] b= new int [4];
 //        b =[0,0,0,0];
-        b[0] =67;
+        b[0] =97;
         System.out.println(b[0]);
     }
 }
